@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Highlighter</title>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <img src="icon.png" id="logo">
+        <span id="extension_name">Dark Pattern Detector</span>
+    </div>
+    <div class="button-container">
+         <button id="b1">
+            <img src="button_off.svg" id="b_image">
+         </button>
+    </div>
+    <div class="counter-container">
+        Dark Patterns : 
+        <span id="count">0</span>
+    </div>
+
+   
+  <div id="output">
+    PROCESSING THIS SITE 
+  </div>
+
+  <button id="reportButton">Report Dark Pattern</button>
+  <div id="reportForm" style="display: none;">
+    <h2>Report Dark Pattern</h2>
+    <form id="darkPatternForm">
+        <label for="patternDescription">Description:</label><br>
+        <textarea id="patternDescription" name="patternDescription" rows="4" cols="50"></textarea><br>
+        <label for="patternUrl">URL:</label><br>
+        <input type="text" id="patternUrl" name="patternUrl"><br>
+        <label for="patternCategory">Category:</label><br>
+        <select id="patternCategory" name="patternCategory">
+            <option value="misleading_urgency">Misleading Urgency</option>
+            <option value="hidden_costs">Hidden Costs</option>
+            <option value="hidden_costs">Scarcity</option>
+            <option value="hidden_costs">Social Proof</option>
+            <option value="hidden_costs">Misdirection</option>
+            <option value="hidden_costs">Sneaking</option>
+        </select><br>
+        <label for="patternSeverity">Severity:</label><br>
+        <select id="patternSeverity" name="patternSeverity">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<a href="popup2.html">
+<button id="blacklistButton">Blacklist</button> </a>
+
+<!-- <a href="https://kanishk3813.github.io/DBPH_Site/">What are Dark Patterns?</a> -->
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="popup2.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="blacklistSection">
+        <h2>Blacklist Website</h2>
+        <input type="text" id="blacklistUrl" placeholder="Enter URL">
+        <button id="blacklistButton">Blacklist</button>
+    </div>
+    
+    <button id="showBlacklistedButton">Blacklisted Websites</button>
+    
+    <div id="blacklistedWebsites" style="display: none;">
+        <h2>Blacklisted Websites</h2>
+        <ul id="blacklist"></ul>
+        <button id="clearBlacklistButton">Clear</button>
+    </div>
+    <script src="popup.js"></script>
+
+    <a href="popup.html">
+        <button id="back">Back</button> </a>
+</body>
+</html>

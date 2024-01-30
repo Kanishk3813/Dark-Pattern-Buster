@@ -1,0 +1,282 @@
+body {
+    height: 340px;
+    width: 250px;
+    margin: 15px;
+    background: linear-gradient(135deg, #000000, #262626);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+body.light {
+    background-color: #f3f4f7;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-container {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 9px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.github-link {
+    height: 40px;
+    width: 100%;
+    background-color: #ff474c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.github-link:hover {
+    background-color: #f72f2ffe;
+}
+
+.github-link.light {
+    color: black;
+}
+
+#dark-mode {
+    align-items: center;
+    width: 40px;
+}
+
+#extension_name {
+    flex: 1;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+#extension_name.light {
+    color: black;
+}
+
+#b1 {
+    width: 6em;
+    height: 6em;
+    outline: none;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #171717, #444245);
+    border: 4px #090909 solid;
+    box-shadow: inset 2px 2px 0px #7d7c7e, inset -2px -2px 0px #1c1c1c;
+}
+
+#b1.light {
+    border: 4px wheat solid;
+    background: linear-gradient(145deg, #b3b3b3, #f0f0f0);
+}
+
+#b1:hover {
+    box-shadow: inset 2px -2px 0px #7d7c7e, inset 2px 2px 0px #1c1c1c;
+}
+
+#b_image {
+    width: 50px;
+    height: 50px;
+}
+
+#logo {
+    width: 48px;
+    height: 48px;
+}
+
+#count {
+    font-weight: bold;
+}
+
+#gitlogo {
+    height: 30px;
+}
+
+#dark-mode {
+    content: '';
+    display: inline-block;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    box-shadow: inset -4px -4px 0px px #fff;
+    border: none;
+}
+
+#dark-mode.light {
+    background-color: gold;
+    box-shadow: none;
+}
+
+#output {
+    height: 50px;
+    width: 220px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+/* ... Your existing CSS ... */
+
+#b1 {
+    width: 6em;
+    height: 6em;
+    outline: none;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #171717, #444245);
+    border: 4px #090909 solid;
+    box-shadow: inset 2px 2px 0px #7d7c7e, inset -2px -2px 0px #1c1c1c;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#b1.light {
+    border: 4px wheat solid;
+    background: linear-gradient(145deg, #b3b3b3, #f0f0f0);
+}
+
+#b1:hover {
+    box-shadow: inset 2px -2px 0px #7d7c7e, inset 2px 2px 0px #1c1c1c, 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 220px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#output:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+body {
+    height: 400px;
+    width: 250px;
+    margin: 15px;
+    background: linear-gradient(135deg, #000000, #262626);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    animation: fadeInDown 0.5s ease-in-out;
+}
+
+
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+#reportForm {
+    display: none;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+#reportForm h2 {
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+#reportForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+#reportForm textarea,
+#reportForm input[type="text"],
+#reportForm select {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+#reportForm input[type="submit"] {
+    width: auto;
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#reportForm input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#reportForm::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+#blacklistedWebsites h2 {
+    color: white;
+}
+
+#blacklistSection h2 {
+    color: white;
+}
