@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 body {
     height: 340px;
     width: 250px;
@@ -9,6 +12,7 @@ body {
     align-items: center;
     justify-content: space-around;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    font-family: 'Roboto', sans-serif;
 }
 
 body.light {
