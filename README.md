@@ -24,12 +24,23 @@ Enable Developer mode.
 Click on "Load unpacked" and select the cloned repository folder.
 
 
-USAGE -
-Click on the Dark Pattern Buster extension icon to activate.
-Browse the web as usual. Dark pattern keywords will be highlighted automatically.
-Hover over highlighted keywords to view informative tooltips.
-Stay informed about website safety and report dark patterns for community awareness.
+## Usage
+
+1. Click on the Dark Pattern Buster extension icon in your browser toolbar to activate it.
+2. Browse the web as usual, and dark pattern keywords will be highlighted on webpages.
+3. Hover over the highlighted keywords to view informative tooltips describing the type of dark pattern.
+4. The extension will also display a safety assessment for visited sites and provide options for user reporting.
+5. Customize your experience through the extension's settings and preferences.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to the Dark Pattern Buster Chrome extension, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push your changes to your forked repository (`git push origin feature/your-feature-name`).
+5. Create a pull request detailing your changes and their purpose.
 
 
-CONTRIBUTION -
-Contributions are welcome! Feel free to open issues for bug fixes, feature requests, or other improvements. Please ensure to follow our code of conduct.
+**Disclaimer:** The Dark Pattern Buster Chrome extension is a project developed for educational and awareness purposes and is not affiliated with any commercial entities.
