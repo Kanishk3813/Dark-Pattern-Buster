@@ -35,12 +35,17 @@ function addToBlacklist(url) {
     // Retrieve existing blacklist from storage
     chrome.storage.local.get(['blacklist'], function (result) {
         var blacklist = result.blacklist || [];
-        // Add new URL to the blacklist
-        blacklist.push(url);
-        // Save updated blacklist to storage
-        chrome.storage.local.set({ 'blacklist': blacklist }, function () {
-            console.log('URL added to blacklist: ' + url);
-        });
+        // Check if the URL is already in the blacklist
+        if (!blacklist.includes(url)) {
+            // Add new URL to the blacklist
+            blacklist.push(url);
+            // Save updated blacklist to storage
+            chrome.storage.local.set({ 'blacklist': blacklist }, function () {
+                console.log('URL added to blacklist: ' + url);
+            });
+        } else {
+            console.log('URL is already in the blacklist: ' + url);
+        }
     });
 }
 
