@@ -19,10 +19,10 @@ The Dark Pattern Buster Chrome extension is a powerful tool designed to combat d
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/dark-pattern-buster.git
-Run the server.py file
-Navigate to chrome://extensions in your Chrome browser.
-Enable Developer mode.
-Click on "Load unpacked" and select the cloned repository folder.
+- Run the server.py file
+- Navigate to chrome://extensions in your Chrome browser.
+- Enable Developer mode.
+- Click on "Load unpacked" and select the cloned repository folder.
 
 
 ## Usage
