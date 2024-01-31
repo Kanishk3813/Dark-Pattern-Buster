@@ -19,7 +19,7 @@ fetch(fileUrl)
             } else if (pattern.includes("in stock") || pattern.includes("claimed")) {
                 patternClass = "in-stock-class";
                 tooltipTitle = "Scarcity: Tries to increase the value of something by making it appear to be limited in availability";
-            } else if (pattern.includes("Ends") && pattern.includes("in") || pattern.includes("Order within") || pattern.includes("Deal of the day")){
+            } else if (pattern.includes("Ends") && pattern.includes("in") || pattern.includes("Order within") || pattern.includes("Deal of the day") || pattern.includes("Only 3 left")){
                 patternClass = "ends-class";
                 tooltipTitle = "Urgency: Places deadlines on things to make them appear more desirable";
             } else if (pattern.includes("bought in past month") || pattern.includes("Frequently bought together")) {
