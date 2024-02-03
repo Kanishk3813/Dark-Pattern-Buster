@@ -2,6 +2,15 @@
 
 Welcome to the Dark Pattern Buster Chrome extension repository!
 
+**Authors:**
+
+<a href="https://github.com/Kanishk3813/DPBH-23/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Kanishk3813/DPBH-23" />
+</a>
+
+
+
+
 ## Introduction
 
 The Dark Pattern Buster Chrome extension is a powerful tool designed to combat deceptive design tactics, known as dark patterns, prevalent on the web. By highlighting dark pattern keywords and providing informative tooltips, the extension empowers users to identify and navigate around manipulative practices. Additionally, integrated features such as website safety assessment and user reporting foster a safer and more transparent online experience. Join us in the fight against digital deception and take control of your online interactions with the Dark Pattern Buster extension.
