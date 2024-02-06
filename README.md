@@ -27,7 +27,7 @@ The Dark Pattern Buster Chrome extension is a powerful tool designed to combat d
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Kanishk3813/DPBH-24.git
+   git clone https://github.com/Kanishk3813/Dark-Pattern-Buster.git
 - Run the server.py file
 - Please Note : Install necessary python libraries by (`pip install {library_name}`) .
 - Navigate to chrome://extensions in your Chrome browser.
